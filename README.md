@@ -30,8 +30,7 @@ Para compreender os objetivos do negócio e mapear as necessidades do site insti
 Durante o encontro, o grupo conduziu uma conversa estruturada abordando os seguintes tópicos:
 
 1. **Origem e Proposta da KF Imports:** Kaique relatou que a loja nasceu da demanda crescente na região do Tatuapé por produtos importados exclusivos e de alta qualidade (como vestuário, acessórios e eletrônicos). Ele destacou que o diferencial da loja é o atendimento personalizado e a garantia de autenticidade dos itens.
-2. **Público-Alvo e Desafios:** O público principal é composto por jovens e adultos da Zona Leste de São Paulo que buscam tendências internacionais. O proprietário mencionou que um dos maiores desafios atuais é centralizar as informações da loja em um local fixo na web, já que o atendimento ficava muito pulverizado apenas em redes sociais.
-3. **Requisitos para o Site Institucional:** Para atender às necessidades da KF Imports, alinhamos que o site em HTML puro precisaria ter uma estrutura limpa e direta, contando com:
+2. **Requisitos para o Site Institucional:** Para atender às necessidades da KF Imports, alinhamos que o site em HTML puro precisaria ter uma estrutura limpa e direta, contando com:
    * **Página Inicial:** Apresentação da marca, destaques do catálogo e valores da empresa.
    * **Produtos/Catálogo:** Uma vitrine simples organizando as principais categorias de importados.
    * **Contato e Localização:** Endereço físico, horário de funcionamento e botões para redes sociais e atendimento.
@@ -41,4 +40,9 @@ Durante o encontro, o grupo conduziu uma conversa estruturada abordando os segui
 
 Abaixo está o registro da reunião online realizada via Google Meet com o proprietário Kaique Vieira:
 
-[Comprovação do Contato com o Entrevistado](print_entrevista.png)
+<img width="628" height="1350" alt="d0c960b8-6f35-4fe8-adb8-ab0928298328" src="https://github.com/user-attachments/assets/715c0a14-6129-41f4-8f9d-84689efbb06b" />
+
+
+### Comprovante de validação no w3c validator
+<img width="1344" height="561" alt="image" src="https://github.com/user-attachments/assets/700f4453-d86d-4706-8b5d-f2218e23758d" />
+
