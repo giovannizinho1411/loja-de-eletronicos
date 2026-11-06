@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento - KF Imports</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="topo">
+        <a class="marca" href="../index.html">
+            <img src="../assets/img/logo.png" alt="Logo da KF Imports">
+            KF Imports
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="celulares.html">Celulares</a></li>
+                <li><a href="notebooks.html">Notebooks</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="acessorios.html">Acessórios</a></li>
+                <li><a href="assistencia.html">Assistência</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="multimidia.html">Multimídia</a></li>
+                <li><a href="orcamento.html" aria-current="page">Orçamento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h1>Solicite um orçamento</h1>
+    <p>Preencha os dados e entraremos em contato.</p>
+
+    <form action="mailto:kfimportstr@gmail.com" method="post" enctype="text/plain">
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" required minlength="3" pattern="[A-Za-zÀ-ÿ ]+" title="Use apenas letras e espaços">
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required pattern="\(\d{2}\) \d{4,5}-\d{4}" title="Formato: (11) 99999-9999">
+
+        <label for="tipo">Tipo de solicitação</label>
+        <select id="tipo" name="tipo" required>
+            <option value="">Selecione</option>
+            <option>Compra de produto</option>
+            <option>Troca de película</option>
+            <option>Troca de tela</option>
+            <option>Outro reparo</option>
+        </select>
+
+        <label for="detalhes">Detalhes (modelo do aparelho, produto desejado...)</label>
+        <textarea id="detalhes" name="detalhes" rows="5" required minlength="10"></textarea>
+
+        <button type="submit">Enviar pedido</button>
+    </form>
+</main>
+
+<footer>
+    <h2>KF Imports</h2>
+    <p>Eletrônicos, tecnologia, acessórios e assistência técnica.</p>
+    <address>
+        <a href="mailto:kfimportstr@gmail.com">kfimportstr@gmail.com</a><br>
+        <a href="tel:+5511990020386">(11) 99002-0386</a><br>
+        <a href="https://www.instagram.com/kfimports._/">@kfimports._</a>
+    </address>
+    <small>© 2026 KF Imports. Todos os direitos reservados.</small>
+</footer>
+
+</body>
+</html>

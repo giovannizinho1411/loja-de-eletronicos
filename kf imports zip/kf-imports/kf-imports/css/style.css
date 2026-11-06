@@ -1,0 +1,163 @@
+:root {
+  --azul: #1558c0;
+  --escuro: #0b2a5b;
+  --claro: #eaf2ff;
+  --borda: #c5d9f7;
+  --suave: #52627d;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+[hidden] { display: none !important; }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #10203a;
+  line-height: 1.6;
+}
+
+a { color: var(--azul); }
+h1, h2, h3 { margin: 0 0 .5rem; line-height: 1.2; color: var(--escuro); }
+img { max-width: 100%; height: auto; }
+
+/* cabeçalho e rodapé */
+header, footer { background: var(--escuro); color: #fff; }
+header { padding: 1rem; }
+
+.topo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.marca img { width: 56px; height: 56px; }
+
+nav ul { display: flex; flex-wrap: wrap; gap: .3rem; margin: 0; padding: 0; list-style: none; }
+nav a {
+  display: block;
+  padding: .4rem .8rem;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:hover, nav a[aria-current] { background: #fff; color: var(--escuro); }
+
+footer { padding: 2rem 1rem; text-align: center; }
+footer a { color: #fff; }
+footer h2 { color: #fff; }
+footer address { font-style: normal; }
+footer small { display: block; margin-top: 1rem; color: var(--borda); }
+
+/* conteúdo */
+main { max-width: 1100px; margin: auto; padding: 2rem 1rem; }
+section { margin-bottom: 2.5rem; }
+
+.destaque { padding: 2rem; border-left: 6px solid var(--azul); background: var(--claro); }
+.ofertas { padding: 1.5rem; background: var(--azul); color: #fff; }
+.ofertas h2 { color: #fff; }
+
+.botao, button {
+  display: inline-block;
+  padding: .6rem 1.3rem;
+  border: 0;
+  border-radius: 6px;
+  background: var(--azul);
+  color: #fff;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.botao:hover, button:hover { background: var(--escuro); }
+
+.lista { display: flex; flex-wrap: wrap; gap: .6rem; padding: 0; list-style: none; }
+.lista a {
+  display: block;
+  padding: .5rem 1rem;
+  border: 2px solid var(--azul);
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.lista a:hover { background: var(--azul); color: #fff; }
+
+/* cards */
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; }
+.duas { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; align-items: start; }
+
+.cartao, .produto {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+}
+.cartao p, .produto p { margin: 0 0 .5rem; }
+.produto { position: relative; }
+.produto img { display: block; width: 100%; max-width: 200px; margin: 0 auto .8rem; }
+.produto del { color: var(--suave); }
+.produto strong { color: var(--azul); font-size: 1.5rem; }
+.produto button { margin-top: auto; }
+
+.desconto {
+  position: absolute;
+  top: .7rem;
+  left: .7rem;
+  padding: .2rem .6rem;
+  border-radius: 6px;
+  background: var(--azul);
+  color: #fff;
+  font-weight: bold;
+}
+.sem-resultado { color: var(--suave); }
+
+/* tabelas */
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: .7rem; border: 1px solid var(--borda); text-align: left; }
+th { background: var(--claro); color: var(--escuro); }
+
+/* formulários */
+form { max-width: 640px; padding: 1.2rem; border-radius: 12px; background: var(--claro); }
+label { display: block; margin: .8rem 0 .3rem; font-weight: bold; }
+input, select, textarea {
+  width: 100%;
+  padding: .6rem;
+  border: 2px solid var(--azul);
+  border-radius: 6px;
+  background: #fff;
+  font: inherit;
+}
+form button { margin-top: 1rem; }
+.mensagem-ok { font-weight: bold; color: var(--escuro); }
+
+/* multimídia */
+video { display: block; width: 100%; max-width: 360px; border-radius: 12px; }
+audio { width: 100%; max-width: 480px; }
+.icone { width: 140px; }
+
+/* criados pelo script.js */
+.carrinho, .aviso {
+  position: fixed;
+  right: 1rem;
+  padding: .7rem 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.carrinho { bottom: 1rem; border: 2px solid var(--azul); background: #fff; color: var(--escuro); }
+.carrinho button { margin-left: .7rem; padding: .3rem .7rem; }
+.aviso { top: 1rem; max-width: 20rem; background: var(--escuro); color: #fff; }
