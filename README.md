@@ -1,48 +1,80 @@
-# Projeto de Front-End Para Web
+Projeto de Front-End Para Web
+Integrantes do Grupo
+Arthur Henrique Alves - RGM: 47332361
 
-## Integrantes do Grupo
-* **Arthur Henrique Alves** - RGM: 47332361
-* **Giovanni Henrique Tartaro** - RGM: 047048026
-* **Guilherme Lima Araujo** - RGM: 47058773
-* **Julio César Rocha** - RGM: 47422432
+Giovanni Henrique Tartaro - RGM: 047048026
 
-**Curso:** Ciência da Computação  
-**Instituição:** Universidade Cidade de São Paulo (UNICID) - Campus Tatuapé  
-**Disciplina:** Desenvolvimento Front-End Para Web  
-**Professor:** Cid Rodrigues De Andrade  
+Guilherme Lima Araujo - RGM: 47058773
 
----
+Julio César Rocha - RGM: 47422432
 
-## Introdução
+Curso: Ciência da Computação Instituição: Universidade Cidade de São Paulo (UNICID) - Campus Tatuapé Disciplina: Desenvolvimento Front-End Para Web Professor: Cid Rodrigues De Andrade Site publicado: https://giovannizinho1411.github.io/loja-de-eletronicos/
 
-Este projeto consiste no desenvolvimento de um site institucional construído exclusivamente em **HTML puro**, como parte das exigências da disciplina de Desenvolvimento Front-End Para Web.
+Introdução
+Site institucional da KF Imports, loja de eletrônicos, acessórios e assistência técnica . Na Entrega 1 foi feita a estrutura em HTML; na Entrega 2 foram adicionados CSS, JavaScript, mais páginas e recursos multimídia.
 
-* **Organização Escolhida:** KF Imports 
-* **Objetivo do Site:** Apresentar a loja, seu catálogo de produtos importados e meios de contato, fortalecendo sua presença digital e facilitando o acesso dos clientes às informações do estabelecimento de forma simples, estruturada e acessível.
+Objetivo: apresentar a loja, seus produtos, a assistência técnica e os meios de contato, facilitando o acesso dos clientes às informações.
 
----
+Desenvolvimento
+Entrevista com a organização
+O grupo fez uma reunião remota via Google Meet com o proprietário, Kaique Vieira. Ele contou que a loja nasceu da demanda por produtos importados de qualidade e que o diferencial é o atendimento personalizado e a garantia de autenticidade. Ficou combinado que o site teria página inicial, catálogo por categorias e contato com endereço, horário e redes sociais.
 
-## Desenvolvimento
+Comprovação de Contato: 
+<img width="208" height="449" alt="image" src="https://github.com/user-attachments/assets/6139051d-1adb-4552-be06-cd92359f5cf0" />
 
 
-Para compreender os objetivos do negócio e mapear as necessidades do site institucional, o grupo realizou uma reunião remota via **Google Meet** com o proprietário da **KF Imports**, **Kaique Vieira**.
-
-Durante o encontro, o grupo conduziu uma conversa estruturada abordando os seguintes tópicos:
-
-1. **Origem e Proposta da KF Imports:** Kaique relatou que a loja nasceu da demanda crescente na região do Tatuapé por produtos importados exclusivos e de alta qualidade (como vestuário, acessórios e eletrônicos). Ele destacou que o diferencial da loja é o atendimento personalizado e a garantia de autenticidade dos itens.
-2. **Requisitos para o Site Institucional:** Para atender às necessidades da KF Imports, alinhamos que o site em HTML puro precisaria ter uma estrutura limpa e direta, contando com:
-   * **Página Inicial:** Apresentação da marca, destaques do catálogo e valores da empresa.
-   * **Produtos/Catálogo:** Uma vitrine simples organizando as principais categorias de importados.
-   * **Contato e Localização:** Endereço físico, horário de funcionamento e botões para redes sociais e atendimento.
 
 
-### Comprovação do Contato
+Estrutura do site
+São 10 páginas com o mesmo menu: index.html e, em paginas/, celulares, notebooks, games, acessorios, assistencia, sobre, multimidia, orcamento e contato. As pastas são css/, js/ e assets/ (img/, audio/, video/).
 
-Abaixo está o registro da reunião online realizada via Google Meet com o proprietário Kaique Vieira:
+Requisitos técnicos atendidos: HTML semântico, formulários com validação nativa do HTML5, vídeo e áudio em multimidia.html, SVG em assistencia.html, um CSS único e JavaScript (carrinho, pesquisa, selo de desconto e newsletter).
 
-<img width="628" height="1350" alt="d0c960b8-6f35-4fe8-adb8-ab0928298328" src="https://github.com/user-attachments/assets/715c0a14-6129-41f4-8f9d-84689efbb06b" />
+Processo de desenvolvimento
 
+Estrutura: mesmo cabeçalho, menu e rodapé em todas as páginas; uma página por categoria; orçamento separado do contato; um único CSS e um único JS.
 
-### Comprovante de validação no w3c validator
-<img width="1344" height="561" alt="image" src="https://github.com/user-attachments/assets/700f4453-d86d-4706-8b5d-f2218e23758d" />
+Conteúdo: veio da entrevista com o Kaique. 
 
+Desafios: manter 10 páginas consistentes, acertar os caminhos (../) das páginas dentro de paginas/, fazer o carrinho valer em todas as páginas (usando localStorage) e passar no validador do W3C.
+
+Pesquisa de leiaute
+Sites de referência analisados: Kabum e Fast Shop. 
+
+Lojas desse tipo costumam ter menu no topo, busca em destaque, cards de produto com preço antigo riscado e botão de compra, faixa de ofertas e rodapé com contato. O site segue esse padrão, mas com visual mais limpo por ser uma loja pequena.
+
+Paleta de cores e tipografia
+A paleta azul e branca combina com a logo da loja. Foi testado o contraste (WCAG, mínimo 4,5:1):
+
+Combinação
+
+Contraste
+
+Branco no azul #1558c0 (botões)
+
+6,59:1
+
+Branco no azul escuro #0b2a5b (cabeçalho)
+
+14,03:1
+
+Texto #10203a no branco
+
+16,28:1
+
+Texto secundário #52627d no branco
+
+6,17:1
+
+A fonte é Arial, por estar em praticamente todos os dispositivos e ter boa leitura. 
+
+Uso de IA neste projeto
+Modelo: Claude (Anthropic), Claude Sonnet 5.5.
+
+Validação: 
+<img width="1357" height="528" alt="image" src="https://github.com/user-attachments/assets/5df2331a-4343-4c94-8930-f71f89a7079c" />
+
+Conclusão: Fazer o site de uma loja real nos mostrou que o conteúdo precisa vir do cliente, e não do que imaginamos: conversar com o Kaique mudou o que colocamos no site. 
+Na Entrega 1 praticamos a estrutura do HTML e, na Entrega 2, vimos na prática como o CSS e o JavaScript transformam uma página simples em um site com identidade visual e interatividade.
+
+Ao mesmo tempo, percebemos que ainda temos o que estudar em CSS, principalmente em layout, e que usamos a IA como apoio para partes do código. Por isso foi importante ler, testar e entender o que foi gerado, e não apenas copiar. A maior dificuldade foi manter 10 páginas consistentes e passar nos validadores do W3C. 
