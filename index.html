@@ -1,411 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KF Imports- Assistência técnica e acessórios</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-
+    <title>Eletrônicos, tecnologia e assistência técnica - KF Imports</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
-
 <body>
 
-    <!-- CABEÇALHO -->
-    <header>
-
-        <img class="logo" src="img/logo.png" alt="KF Imports - Acessórios e Assistência Técnica" width="120" height="120">
-
-        <h1>KF Imports</h1>
-
-        <p>Eletrônicos, tecnologia e acessórios</p>
-
+<header>
+    <div class="topo">
+        <a class="marca" href="index.html">
+            <img src="assets/img/logo.png" alt="Logo da KF Imports">
+            KF Imports
+        </a>
         <nav>
-            <a href="#inicio">Início</a> |
-            <a href="#categorias">Categorias</a> |
-            <a href="#produtos">Produtos</a> |
-            <a href="#ofertas">Ofertas</a> |
-            <a href="#contato">Contato</a>
+            <ul>
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="paginas/celulares.html">Celulares</a></li>
+                <li><a href="paginas/notebooks.html">Notebooks</a></li>
+                <li><a href="paginas/games.html">Games</a></li>
+                <li><a href="paginas/acessorios.html">Acessórios</a></li>
+                <li><a href="paginas/assistencia.html">Assistência</a></li>
+                <li><a href="paginas/sobre.html">Sobre</a></li>
+                <li><a href="paginas/multimidia.html">Multimídia</a></li>
+                <li><a href="paginas/orcamento.html">Orçamento</a></li>
+                <li><a href="paginas/contato.html">Contato</a></li>
+            </ul>
         </nav>
+    </div>
+</header>
 
-        <hr>
+<main>
+    <section class="destaque">
+        <h1>Bem-vindo à KF Imports</h1>
+        <p>Encontre os melhores produtos eletrônicos com preços especiais e conte com a nossa assistência técnica.</p>
+        <a class="botao" href="#produtos">Ver produtos</a>
+    </section>
 
-        <!-- PESQUISA -->
+    <section id="categorias">
+        <h2>Categorias</h2>
+        <ul class="lista">
+            <li><a href="paginas/celulares.html">Celulares</a></li>
+            <li><a href="paginas/notebooks.html">Notebooks</a></li>
+            <li><a href="paginas/games.html">Games</a></li>
+            <li><a href="paginas/acessorios.html">Acessórios</a></li>
+            <li><a href="paginas/assistencia.html">Assistência técnica</a></li>
+        </ul>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos em destaque</h2>
         <form action="#" method="get">
             <label for="pesquisa">Pesquisar produto:</label>
-            <input
-                type="search"
-                id="pesquisa"
-                name="pesquisa"
-                placeholder="Digite o produto">
+            <input type="search" id="pesquisa" name="pesquisa" placeholder="Digite o produto">
             <button type="submit">Pesquisar</button>
         </form>
-
-    </header>
-
-    <main>
-
-        <!-- INÍCIO -->
-        <section id="inicio">
-
-            <h2>Bem-vindo à KF Imports</h2>
-
-            <p>
-                Encontre os melhores produtos eletrônicos
-                com preços especiais.
-            </p>
-
-            <p>
-                <a href="#produtos">Ver produtos</a>
-            </p>
-
-        </section>
-
-        <hr>
-
-        <!-- CATEGORIAS -->
-        <section id="categorias">
-
-            <h2>Categorias</h2>
-
-            <ul>
-                <li>
-                    <a href="#">Celulares</a>
-                </li>
-
-                <li>
-                    <a href="#">Notebooks</a>
-                </li>
-
-                <li>
-                    <a href="#">Computadores</a>
-                </li>
-
-                <li>
-                    <a href="#">Fones de ouvido</a>
-                </li>
-
-                <li>
-                    <a href="#">Games</a>
-                </li>
-
-                <li>
-                    <a href="#">Smart TVs</a>
-                </li>
-
-                <li>
-                    <a href="#">Acessórios</a>
-                </li>
-            </ul>
-
-        </section>
-
-        <hr>
-
-        <!-- PRODUTOS -->
-        <section id="produtos">
-
-            <h2>Produtos em destaque</h2>
-
-            <!-- PRODUTO 1 -->
-            <article>
-
-                <h3>Iphone 17e</h3>
-
-                <figure>
-                    <img
-                        src="img/iphone17e.png"
-                        alt="Iphone 17"
-                        width="250">
-                    <figcaption>Iphone 17e</figcaption>
-                </figure>
-
-                <p>
-                    Iphone 17e com 256 GB de armazenamento,
-                    câmera profissional e tela de alta resolução.
-                </p>
-
-                <p>
-                    <del>R$ 5.999,90</del>
-                </p>
-
-                <p>
-                    <strong>R$ R$ 4.364</strong>
-                </p>
-
-                <p>
-                    ⭐⭐⭐⭐⭐
-                </p>
-
-                <button type="button">
-                    Adicionar ao carrinho
-                </button>
-
-            </article>
-
-            <hr>
-
-            <!-- PRODUTO 2 -->
-            <article>
-
-                <h3>Notebook Asus</h3>
-
-                <figure>
-                    <img
-                        src="img/notebook.png"
-                        alt="Notebook Asus"
-                        width="250">
-                    <figcaption>Notebook Asus</figcaption>
-                </figure>
-
-                <p>
-                    Notebook com processador I7-1355U,
-                    16GB de RAM e SSD de 512GB.
-                </p>
-
-                <p>
-                    <del>R$ 6.499,90</del>
-                </p>
-
-                <p>
-                    <strong>R$ 5.990</strong>
-                </p>
-
-                <p>
-                    ⭐⭐⭐⭐⭐
-                </p>
-
-                <button type="button">
-                    Adicionar ao carrinho
-                </button>
-
-            </article>
-
-            <hr>
-
-            <!-- PRODUTO 3 -->
-            <article>
-
-                <h3>Headphone bluetooth</h3>
-
-                <figure>
-                    <img
-                        src="img/fone 2.png"
-                        alt="Headphone bluetooth"
-                        width="150">
-                    <figcaption>Headphone bluetooth</figcaption>
-                </figure>
-
-                <p>
-                    Fone de ouvido sem fio com cancelamento
-                    de ruído e bateria de longa duração.
-                </p>
-
-                <p>
-                    <del>R$ 899,90</del>
-                </p>
-
-                <p>
-                    <strong>R$ 609,90</strong>
-                </p>
-
-                <p>
-                    ⭐⭐⭐⭐☆
-                </p>
-
-                <button type="button">
-                    Adicionar ao carrinho
-                </button>
-
-            </article>
-
-            <hr>
-
-            <!-- PRODUTO 4 -->
-            <article>
-
-                <h3>playstation 5</h3>
-
-                <figure>
-                    <img
-                        src="img/ps5.png"
-                        alt="playstation 5"
-                        width="250">
-                    <figcaption>playstation 5</figcaption>
-                </figure>
-
-                <p>
-                    Console de nova geração para jogos
-                    em alta resolução.
-                </p>
-
-                <p>
-                    <del>R$ 4.999,90</del>
-                </p>
-
-                <p>
-                    <strong>R$ 4.499,90</strong>
-                </p>
-
-                <p>
-                    ⭐⭐⭐⭐⭐
-                </p>
-
-                <button type="button">
-                    Adicionar ao carrinho
-                </button>
-
-            </article>
-
-        </section>
-
-        <hr>
-
-        <!-- OFERTAS -->
-        <section id="ofertas">
-
-            <h2>🔥 Ofertas especiais</h2>
-
-            <p>
-                Aproveite nossos descontos exclusivos.
-            </p>
-
-            <ul>
-                <li>Frete grátis em compras acima de R$ 299</li>
-                <li>Parcelamento em até 12x</li>
-                <li>Ofertas por tempo limitado</li>
-            </ul>
-
-        </section>
-
-        <hr>
-
-        <!-- BENEFÍCIOS -->
-        <section>
-
-            <h2>Por que comprar na KF Imports?</h2>
-
-            <dl>
-
-                <dt>
-                    <strong>🚚 Frete grátis</strong>
-                </dt>
-
-                <dd>
-                    Frete grátis para compras acima de R$ 299.
-                </dd>
-
-                <dt>
-                    <strong>🔒 Compra segura</strong>
-                </dt>
-
-                <dd>
-                    Seus dados ficam protegidos durante a compra.
-                </dd>
-
-                <dt>
-                    <strong>💳 Pagamento facilitado</strong>
-                </dt>
-
-                <dd>
-                    Parcele suas compras em até 12 vezes.
-                </dd>
-
-                <dt>
-                    <strong>↩️ Garantia</strong>
-                </dt>
-
-                <dd>
-                    Produtos com garantia e suporte.
-                </dd>
-
-            </dl>
-
-        </section>
-
-        <hr>
-
-        <h2>Resultado da troca de tela:</h2>
-
-        <video controls width="200">
-            <source src="video%20trocando%20pelicula.mp4" type="video/mp4">
-        </video>
-
-        <!-- NEWSLETTER -->
-        <section>
-
-            <h2>Receba nossas ofertas</h2>
-
-            <p>
-                Cadastre seu e-mail para receber promoções.
-            </p>
-
-            <form action="#" method="post">
-
-                <label for="email">
-                    Seu e-mail:
-                </label>
-
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="seu@email.com"
-                    required>
-
-                <button type="submit">
-                    Cadastrar
-                </button>
-
-            </form>
-
-        </section>
-
-    </main>
-
-    <hr>
-
-    <!-- RODAPÉ -->
-    <footer id="contato">
-
-        <img class="logo" src="img/logo.png" alt="KF Imports - Acessórios e Assistência Técnica" width="120" height="120">
-
-        <h2>KF Imports</h2>
-
-        <p>
-            Sua loja de eletrônicos e tecnologia.
-        </p>
-
-        <h3>Atendimento</h3>
-
-        <address>
-            E-mail:
-            <a href="mailto:kfimportstr@gmail.com">
-                kfimportstr@gmail.com
-            </a>
-            <br>
-
-            Telefone:
-            <a href="tel:+5511990020386">
-                (11) 9900-20386
-            </a>
-        </address>
-
-        <h3>Redes sociais</h3>
-
-        <nav>
-            <a href="#">@kfimports._</a> |
-            <a href="#"></a>
-        </nav>
-
         <br>
+        <div class="grade" id="lista-produtos">
+        <article class="produto">
+            <img src="assets/img/" alt="iPhone 17e">
+            <h3>iPhone 17e</h3>
+            <p>256 GB de armazenamento, câmera profissional e tela de alta resolução.</p>
+            <p><del>R$ 5.999,90</del></p>
+            <p><strong>R$ 4.364,00</strong></p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </article>
+        <article class="produto">
+            <img src="assets/img/notebook.png" alt="Notebook Asus">
+            <h3>Notebook Asus</h3>
+            <p>Processador i7-1355U, 16 GB de RAM e SSD de 512 GB.</p>
+            <p><del>R$ 6.499,90</del></p>
+            <p><strong>R$ 5.990,00</strong></p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </article>
+        <article class="produto">
+            <img src="assets/img/fone2.png" alt="Headphone Bluetooth">
+            <h3>Headphone Bluetooth</h3>
+            <p>Sem fio, com cancelamento de ruído e bateria de longa duração.</p>
+            <p><del>R$ 899,90</del></p>
+            <p><strong>R$ 609,90</strong></p>
+            <p>⭐⭐⭐⭐☆</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </article>
+        <article class="produto">
+            <img src="assets/img/ps5.png" alt="PlayStation 5">
+            <h3>PlayStation 5</h3>
+            <p>Console de nova geração para jogos em alta resolução.</p>
+            <p><del>R$ 4.999,90</del></p>
+            <p><strong>R$ 4.499,90</strong></p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </article>
+        </div>
+    </section>
 
-        <small>
-            © 2026 KF Imports. Todos os direitos reservados.
-        </small>
+    <section class="ofertas" id="ofertas">
+        <h2>🔥 Ofertas especiais</h2>
+        <ul>
+            <li>Frete grátis em compras acima de R$ 299</li>
+            <li>Parcelamento em até 12x</li>
+            <li>Ofertas por tempo limitado</li>
+        </ul>
+    </section>
 
-    </footer>
+    <section>
+        <h2>Por que comprar na KF Imports?</h2>
+        <div class="grade">
+            <article class="cartao"><h3>🚚 Frete grátis</h3><p>Para compras acima de R$ 299.</p></article>
+            <article class="cartao"><h3>🔒 Compra segura</h3><p>Seus dados ficam protegidos durante a compra.</p></article>
+            <article class="cartao"><h3>💳 Pagamento facilitado</h3><p>Parcele suas compras em até 12 vezes.</p></article>
+            <article class="cartao"><h3>↩️ Garantia</h3><p>Produtos com garantia e suporte.</p></article>
+        </div>
+    </section>
+
+    <section>
+        <h2>Receba nossas ofertas</h2>
+        <form action="#" method="post" id="newsletter">
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <h2>KF Imports</h2>
+    <p>Eletrônicos, tecnologia, acessórios e assistência técnica.</p>
+    <address>
+        <a href="mailto:kfimportstr@gmail.com">kfimportstr@gmail.com</a><br>
+        <a href="tel:+5511990020386">(11) 99002-0386</a><br>
+        <a href="https://www.instagram.com/kfimports._/">@kfimports._</a>
+    </address>
+    <small>© 2026 KF Imports. Todos os direitos reservados.</small>
+</footer>
 
 </body>
 </html>
